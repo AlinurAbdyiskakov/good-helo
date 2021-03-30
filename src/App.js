@@ -1,12 +1,12 @@
-import keypad from "./componants/Keypad"
+
+import Countdown from "./componants/Countdown/Countdown";
 
 
 function App() {
   return (
     <div className="App">
-     <keypad/>
+      <Countdown />
     </div>
   );
 }
-
 export default App;
