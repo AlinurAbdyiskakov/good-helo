@@ -7,7 +7,7 @@ const Countdown = ({ countdown, setCountdown }) => {
       setCountdown(countdown - 1);
     }, 1000);
     return () => clearInterval(interval);
-  }, [countdown]);
+  }, [Countdown]);
   return (
     <div className={classes.Countdown}>{countdown}</div>
   );
